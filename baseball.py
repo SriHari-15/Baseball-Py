@@ -17,10 +17,6 @@ def getinput():
             print("ERROR | Please choose a number between 1 or 2")
             continue
 
-def cruns():
-    comp_run = random.randint(1,2)
-    return comp_run
-
 # To simplify, we'll be considering that user batting as True and user pitching as False
 
 def toss():

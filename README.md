@@ -10,6 +10,7 @@ A simple console based Baseball game written in **Python**
 - Run Baseball.exe
 
 **Using the python script:**
+
 If you are using the script, you need Python 3 to be installed on your PC. You can download the latest version from [here](https://python.org/downloads)
 - Download the script from the Releases tab (Source Code zip) or directly from the repo
 - Run the following command in your terminal in the downloaded directory

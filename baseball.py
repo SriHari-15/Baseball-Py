@@ -1,4 +1,7 @@
 import random
+import os
+
+os.system("title Baseball")
 
 def get_input():
     while True:
@@ -81,12 +84,15 @@ def game():
         if innings == 1 and ((usr_bat and usr_score >= target) or (not usr_bat and c_score >= target)): # Thanks ChatGPT :)
             break
 
+    print("\n-- FINAL SCORES --")
+    print(f"Your Score: {usr_score}")
+    print(f"Computer's Score: {c_score}\n")
     if usr_score > c_score:
-        print("\n>> YOU WIN! <<")
+        print(">> YOU WIN! <<")
     elif c_score > usr_score:
-        print("\n>> YOU LOSE! <<")
+        print(">> YOU LOSE! <<")
     else:
-        print("\n>> DRAW <<")
+        print(">> DRAW <<")
 
 game()
 input("\nPress ENTER to exit")

@@ -97,3 +97,4 @@ def game():
         print("\n>> DRAW <<")
 
 game()
+input("\nPress ENTER to exit")

@@ -2,7 +2,7 @@
 
 A simple console based Baseball game written in **Python**
 
-<img src="https://i.imgur.com/HewSHFI.png" width="550">
+<img src="https://i.imgur.com/pZudIr8.png" width="550">
 
 ## Usage
 **Using EXE (Recommended):**
